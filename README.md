@@ -3,7 +3,7 @@ This is a code to detect objects seen by laptop webcan using FAST_RCNN_MOBILENET
 
 Explraination:
 In this code we are using the laptop camera. All the objects infront of the camera are detected using Fast_RCNN_MobileNetV3 pretrained model. 
-This model is a pretrained model by Pytorch team.
+This model is a pretrained model by Pytorch team and we are deploying it using transfer learning.
 The object boundaries with name of the object and confidece level for detection are added to the image.
 This code detects the objects in real time.
 
